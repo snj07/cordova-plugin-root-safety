@@ -1,0 +1,7 @@
+repositories{
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {    
+    implementation 'com.google.android.gms:play-services-safetynet:11.6.2'
+}

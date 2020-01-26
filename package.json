@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-root-safety",
+  "version": "0.0.1",
+  "description": "Android Toast Plugin",
+  "cordova": {
+    "id": "cordova-plugin-root-safety",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "android",
+    "root detection",
+    "emulator detection",
+    "detection",
+    "security",
+    "safetynet"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Sanjay Sharma",
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snj07/cordova-plugin-root-safety.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snj07/cordova-plugin-root-safety/issues"
+  },
+  "homepage": "https://github.com/snj07/cordova-plugin-root-safety"
+}
