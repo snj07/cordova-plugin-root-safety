@@ -158,7 +158,6 @@ public class RootSafety extends CordovaPlugin {
     }
 
     private void sentCallbackResponse(Map<String, String> data, CallbackContext callbackContext) {
-        Log.e(TAG, Arrays.toString(data.entrySet().toArray()));
         if (data.containsKey(SafetyNetHandler.STATUS_ERROR)) {
             callbackContext.error(new JSONObject(data));
         } else {
