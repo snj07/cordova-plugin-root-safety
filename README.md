@@ -15,6 +15,12 @@ It's a cordova plugin to assess android device using SafetyNet APIs. It won't wo
 
 For using this plugin you need an API key for SafetyNet attestation. You can use [these](https://developer.android.com/training/safetynet/attestation.html#obtain-api-key) steps to generate the API key.
 
+### Install
+
+```
+cordova plugin add cordova-plugin-root-safety --save
+```
+
 ### Check the Google Play services
 Google Play services is required for SafetyNet APIs to work. 
 ```typescript
@@ -76,3 +82,4 @@ The payload response JSON contains following parameter:
 **ctsProfileMatch** -  if the value of ctsProfileMatch is true, then the profile of the device running your app matches the profile of a device that has passed android compatibility testing.<br/>
 **basicIntegrity** - true if the device has passed a basic integrity test, but the CTS profile could not be verified. A more lenient verdict of device integrity. If only the value of basicIntegrity is true, then the device running your app likely wasn't tampered with.<br/>
 **advice** -  advice parameter provides information to help explain why the SafetyNet Attestation API set either ctsProfileMatch or basicIntegrity to false in a particular result.<br/>
+<br/><br/>

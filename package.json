@@ -9,11 +9,13 @@
     ]
   },
   "keywords": [
+    "cordova",
     "ecosystem:cordova",
     "cordova-android",
     "android",
-    "root detection",
-    "emulator detection",
+    "root",
+    "rooted",
+    "emulator",
     "detection",
     "security",
     "safetynet"
