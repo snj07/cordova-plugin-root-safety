@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-root-safety",
-  "version": "0.0.2",
-  "description": "Android Toast Plugin",
+  "version": "0.0.3",
+  "description": "A plugin to check if the Android device is rooted or not using Google SafetyNet API. It provides both offline and online verification methods.",
   "cordova": {
     "id": "cordova-plugin-root-safety",
     "platforms": [
